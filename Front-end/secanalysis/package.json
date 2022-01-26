@@ -1,0 +1,34 @@
+{
+    "name": "secanalysis",
+    "version": "0.0.0",
+    "description": "node.js framework for a sprinternship project created in the wsl using the instructions from the GoldenPath",
+    "private": true,
+    "main": "dist/src/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/src/index.js -l secanalysis.log",
+        "start-noargs": "node dist/src/index.js",
+        "clean": "rm -rf dist",
+        "watch": "tsc --watch",
+        "test": "jest",
+        "test-coverage": "jest --coverage",
+        "test-watch": "jest --watch",
+        "lint": "eslint 'src/**/*.{js,ts}' 'tests/**/*.{js,ts}'",
+        "prettier": "prettier 'src/**' 'tests/**' --write"
+    },
+    "devDependencies": {
+        "@types/node": "^14.14.14",
+        "typescript": "^4.1.3",
+        "@types/jest": "^26.0.19",
+        "jest": "^26.6.3",
+        "@typescript-eslint/eslint-plugin": "^4.10.0",
+        "@typescript-eslint/parser": "^4.10.0",
+        "eslint": "^7.15.0",
+        "eslint-config-prettier": "^7.0.0",
+        "prettier": "^2.2.1"
+    },
+    "dependencies": {
+        "winston": "^3.3.3",
+        "winston-daily-rotate-file": "^4.5.0"
+    }
+}

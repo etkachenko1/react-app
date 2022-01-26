@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+NODE_DEBHELPER_BINARY_PACKAGE=secanalysis
+NODE_DEBHELPER_MODULE=secanalysis
+NODE_DEBHELPER_BUILD_COMMAND=npm ci && npm run build && npm run test
+
+include $(DISTRIBUTION_REFROOT)/opt/bb/share/node-debhelper/node-debhelper.mk

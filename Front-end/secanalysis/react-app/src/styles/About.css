@@ -1,0 +1,85 @@
+.about {
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	background-image: url(../assets/invest.jpg);
+	background-size: cover;
+	overflow-x: hidden;
+	overflow-y: auto;
+	scroll-behavior: smooth;
+  }
+
+  .text {
+	display: flex;
+	width: auto;
+	flex-direction: column;
+	font-family: AvenirRegular, sans-serif;
+	align-items: center;
+	text-align: center;
+
+  }
+  .about .box {
+	background-color: rgba(10, 6, 37, 0.466);
+	width: 100%;
+	height: 150px;
+  }
+
+  .text p {
+	align-items: center;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 70px;
+	color: rgb(255, 255, 255);
+  }
+
+  .about .text h1 {
+	margin-top: 85px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-size: 60px;
+	color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: center;
+	transform: translateY(-40px);
+
+  }
+  .about .text h2{
+	  color: white;
+	  margin-top: 80px;
+
+  }
+
+  .about .team {
+	color:#ffffff;
+	font-size: 20pt;
+	background-color: rgba(10, 6, 37, 0.466);
+	/* border-radius: 30px; */
+	display: flex;
+	flex: auto;
+	text-align: center;
+  }
+
+  .about .team .column {
+	flex: 19%;
+	padding: 5px;
+	margin-top: 40px;
+  }
+
+  @media screen and (max-width: 600px) {
+	.about .team {
+	  flex-direction: column;
+	  align-items: center;
+	}
+  }
+  /* .about .team .column {
+	float: left;
+	margin-left: 30px;
+	padding: 5px;
+  }
+
+  .about .team ::after {
+	content: "";
+	clear: both;
+	display: table;
+  } */

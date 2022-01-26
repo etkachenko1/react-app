@@ -1,0 +1,14 @@
+Source: secanalysis
+Section: unknown
+Priority: extra
+Maintainer: See Pwho <nobody@bloomberg.net>
+Build-Depends:
+ node-debhelper,
+ node,
+Standards-Version: 3.8.4
+
+Package: secanalysis
+Architecture: amd64
+Depends:
+ node,
+Description: node.js framework for a sprinternship project created in the wsl using the instructions from the GoldenPath

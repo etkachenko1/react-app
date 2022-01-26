@@ -1,0 +1,6 @@
+verify:
+    dpkg:
+        buildall: true
+        distribution: unstable
+    rpg:
+        version: "2.0.1"

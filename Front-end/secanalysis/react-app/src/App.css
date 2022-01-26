@@ -1,0 +1,29 @@
+.App {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: AvenirRegular, AvenirBold, AvenirMedium, Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: AvenirMedium;
+  src: url(assets/AvenirMedium.ttf);
+}
+@font-face {
+  font-family: AvenirRegular;
+  src: url(assets/AvenirRegular.ttf);
+}
+@font-face {
+  font-family: AvenirBold;
+  src: url(assets/AvenirBold.ttf);
+}
+@font-face {
+  font-family: AvenirItalic;
+  src: url(assets/AvenirItalic.ttf);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,5 @@
+secanalysis (0.0.0) unstable; urgency=low
+
+  * Dummy changelog entry for dpkg verification.
+
+ -- See Pwho <nobody@bloomberg.net>  Thu, 01 Jan 1970 00:00:00 +0000
